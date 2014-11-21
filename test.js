@@ -4,7 +4,7 @@ var scriptEqual = require('./');
 var test = require('tape');
 
 test('scriptEqual()', function(t) {
-  t.plan(7);
+  t.plan(8);
 
   t.strictEqual(
     scriptEqual(
@@ -52,7 +52,12 @@ test('scriptEqual()', function(t) {
   );
 
   t.throws(
-    scriptEqual.bind(null), /TypeError.*First/,
+    scriptEqual.bind(null, ''), /TypeError.*Two arguments/,
+    'should throw a type error when it takes only one argument.'
+  );
+
+  t.throws(
+    scriptEqual.bind(null), /TypeError.*Two arguments/,
     'should throw a type error when it takes no arguments.'
   );
 });
