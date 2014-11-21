@@ -1,7 +1,7 @@
 # script-equal 
 
 [![Build Status](https://travis-ci.org/shinnn/script-equal.svg?branch=master)](https://travis-ci.org/shinnn/script-equal)
-[![Build status](https://ci.appveyor.com/api/projects/status/ia3h5bcsy84vgfpc?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/script-equal)
+[![Build status](https://ci.appveyor.com/api/projects/status/6y21wd4dva7cu4rw?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/script-equal)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/script-equal.svg)](https://coveralls.io/r/shinnn/script-equal)
 [![Dependency Status](https://david-dm.org/shinnn/script-equal.svg)](https://david-dm.org/shinnn/script-equal)
 [![devDependency Status](https://david-dm.org/shinnn/script-equal/dev-status.svg)](https://david-dm.org/shinnn/script-equal#info=devDependencies)
